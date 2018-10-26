@@ -1,18 +1,18 @@
 .iphoneXR {
   background: url('../../assets/component1.png') bottom center;
   width: 100%;
-  height: 100%;
+  height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
   /* background-attachment: fixed; */
   text-align: center;
-  position: absolute;
+  /* position: relative; */
   z-index: 3;
 
 
 }
 h2 {
-  margin-top: 1%;
+  /* margin-top: 1%; */
   padding: 5%;
   text-align: center;
   color: white;
@@ -27,6 +27,23 @@ h2 {
 }
  a{
    color: #488cc4;
+ }
+
+ /* iphone s styling */
+
+ .iphoneXS {
+   margin-top: 1%;
+   background: url('../../assets/component2.jpg') bottom center;
+   width: 100%;
+   height: 500px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   /* background-attachment: fixed; */
+   text-align: center;
+   /* position: absolute; */
+   z-index: 3;
+
+
  }
 
 /* img{
