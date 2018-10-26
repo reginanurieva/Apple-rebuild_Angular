@@ -35,6 +35,11 @@ a{
 p{
   text-align: center;
 }
+
+.muslink{
+  color: white;
+  margin-top: -2%;
+}
 .mustext{
   margin-top: 30%;
   font-size: 16px;
@@ -65,6 +70,25 @@ p{
  }
  #airpods{
    background: url('../../assets/3.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+ }
+ #macpro{
+   background: url('../../assets/Macbook-Pro.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100%;
+ }
+
+ .pro{
+   color: white;
+ }
+
+ #macpro p.pro{
+   font-weight: 200;
+ }
+ #ipad{
+   background: url('../../assets/10.png');
    background-size: cover;
    background-repeat: no-repeat;
  }
