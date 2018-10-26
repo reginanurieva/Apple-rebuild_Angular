@@ -7,7 +7,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
+    grid-auto-rows: minmax(200px, auto);
   }
 
 .event{
@@ -35,6 +35,12 @@ a{
 p{
   text-align: center;
 }
+.mustext{
+  margin-top: 30%;
+  font-size: 16px;
+  font-weight: 6px;
+  font-family: sans-serif;
+}
 /* .giveback{
     background: url('../../assets/giveback.jpg');
     background-size: contain;
@@ -58,7 +64,7 @@ p{
    background-repeat: no-repeat;
  }
  #airpods{
-   background: url('../../assets/AirPods.jpg');
+   background: url('../../assets/3.png');
    background-size: cover;
    background-repeat: no-repeat;
  }
