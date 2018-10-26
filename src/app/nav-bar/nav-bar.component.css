@@ -3,7 +3,8 @@
   /* display: flex; */
   overflow: hidden;
   height: 40px;
-  margin: 0 -10px;
+  margin: 0 -25px;
+  background-color: #303133;
 }
 
 #navbar-container{
@@ -17,7 +18,8 @@ li {
   display: inline-block;
   position: relative;
   list-style: none;
-  margin-left: 40px;
+  margin-left: 20px;
+  font-family: sans-serif;
   margin-right: 40px;
   width: auto;
   font-size: 10px;
@@ -27,5 +29,21 @@ li {
 
 a {
   text-decoration: none;
-  color: #FFF;
+  color: white;
+}
+
+a:hover{
+  color: gray;
+}
+
+#apple{
+  margin-top: 10px;
+  height: 23px;
+  width: 36px;
+  margin-left:-193px;
+  position: relative;
+}
+
+.fa-apple{
+  color: white;
 }
