@@ -1,12 +1,14 @@
 .iphoneXR {
   background: url('../../assets/component1.png') bottom center;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   /* background-attachment: fixed; */
   text-align: center;
-  position: center;
+  position: absolute;
+  z-index: 3;
+
 
 }
 h2 {
@@ -14,17 +16,19 @@ h2 {
   padding: 5%;
   text-align: center;
   color: white;
-  font-size: 3em;
-  font-weight: 500;
-}
-h3 {
-  margin-top: 1%;
-  padding: 5%;
-  text-align: center;
-  color: white;
-  font-size: 2em;
+  font-size: 36px;
   font-weight: 300;
 }
+
+.links{
+  font-size: 17px;
+  font-weight: 150;
+
+}
+ a{
+   color: #488cc4;
+ }
+
 /* img{
 background: url('../../assets/component1.png') bottom center;
 background-size: cover;
