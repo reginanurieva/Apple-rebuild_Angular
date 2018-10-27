@@ -4,15 +4,12 @@
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-attachment: fixed; */
   text-align: center;
-  /* position: relative; */
   z-index: 3;
 
 
 }
 h2 {
-  /* margin-top: 1%; */
   padding: 5%;
   text-align: center;
   color: white;
@@ -53,9 +50,6 @@ h2 {
    height: 700px;
    background-repeat: no-repeat;
    background-size: cover;
-   /* background-attachment: fixed; */
-   /* text-align: center; */
-   /* position: absolute; */
    z-index: 3;
 
 
@@ -83,7 +77,6 @@ i{
   font-weight: normal;
 }
 p{
-  /* margin-left: 14%; */
   color: #ba3f12;
   font-weight: bold;
   /* text-align: center; */
