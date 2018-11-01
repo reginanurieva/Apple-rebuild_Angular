@@ -6,7 +6,7 @@
   }
 
 .event{
-  width: 500px;
+  /*width: 500px;*/
   height: 500px;
   /* margin: 1% 3% */
   margin-top: 1%;
@@ -28,41 +28,62 @@ p{
   text-align: center;
 }
 
+
+
+
+
 .muslink{
   color: white;
   margin-top: -2%;
 }
 .mustext{
-  margin-top: 30%;
-  font-size: 16px;
-  font-weight: 6px;
-  font-family: sans-serif;
+  text-align: center;
 }
  #apple-event{
-   background: url('../../assets/1.png');
-   background-size: cover;
+   background: url(https://www.apple.com/v/home/dx/images/promos/apple-event/special_event_7__difpjxgizggi_large_2x.jpg);
+   background-size: contain;
    background-repeat: no-repeat;
+   background-position: center;
+   background-color: #fafafa;
+   /*object-fit: cover;*/
  }
  #giveback{
-   background: url('../../assets/giveback.jpg');
-   background-size: cover;
+   background: url(https://www.apple.com/v/home/dx/images/promos/give-back/give_back_large_2x.jpg);
+   background-size: contain;
    background-repeat: no-repeat;
+   background-position: center;
+   background-color: #fafafa;
  }
  #apple-music{
-   background: url('../../assets/music.jpg');
-   background-size: cover;
+   background: url(https://www.apple.com/v/home/dx/images/promos/apple-music/apple_music_large_2x.jpg);
+   background-size: contain;
    background-repeat: no-repeat;
+   background-position: center;
  }
+
+ i{
+
+    margin-left: 29%;
+    font-size: 30px;
+    padding-top: 20%;
+    color: white;
+  }
+
  #airpods{
-   background: url('../../assets/3.png');
-   background-size: cover;
+   background: url(https://www.apple.com/v/home/dx/images/promos/airpods/airpods_large_2x.jpg);
+   background-size: contain;
    background-repeat: no-repeat;
+   background-color: #fafafa;
+   background-position: center;
  }
  #macpro{
-   background: url('../../assets/Macbook-Pro.jpg');
-   background-size: cover;
+   background: url(https://www.apple.com/v/home/dx/images/promos/macbook-pro/macbook_pro_performance_large_2x.jpg
+);
+   background-size: contain;
    background-repeat: no-repeat;
-   width: 100%;
+   background-position: center;
+   background-color: black;
+   /*width: 100%;*/
  }
 
  .pro{
@@ -74,6 +95,16 @@ p{
  }
  #ipad{
    background: url('../../assets/10.png');
-   background-size: cover;
+   background-size: contain;
    background-repeat: no-repeat;
+   background-color: white;
+   background-position: center;
+
  }
+
+
+/*@media screen and (max-width: 480px) {
+  body {
+    background-color: teal;
+  }
+}*/
