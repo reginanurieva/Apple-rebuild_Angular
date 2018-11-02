@@ -74,36 +74,60 @@ z-index: 3;*/
    background-size: contain;
    background-position: left;
    margin-left: 10%;
-   background-color: #fafafa;
+   background-color: white;
    z-index: 3;
  }
 
  .comp{
-   margin-right: 90px;
+   margin-right: 25%;
+   text-align: right;
+   font-size: 50px;
+   font-weight: 500;
+
  }
 
- https://www.apple.com/v/ipad/home/ai/images/home/ar_large_2x.jpg
+ .linksforcomp{
+   text-align: right;
+   margin-right: 25%;
+   font-size: 20px;
+ }
+
+
 
  .trade {
-   margin-top: 1%;
+   margin-top: 5%;
    background: url(https://www.apple.com/v/ipad/home/ai/images/home/trade_in_large_2x.jpg);
    width: 100%;
-   height: 700px;
+   height: 500px;
    background-repeat: no-repeat;
    background-size: contain;
    background-position: right;
    background-color: white;
    z-index: 3;
+ }
 
-
+ .tradetext{
+   margin-left: 15%;
+   text-align: left;
+   font-size: 50px;
+   font-weight: 500;
+ }
+ .par1{
+   text-align: left;
+   margin-left: 15%;
+   font-size: 20px;
+   font-weight: 200;
+ }
+ .linktrade{
+   margin-left: 15%;
  }
 
 
  .planets {
-   margin-top: 1%;
+   margin-top: 3%;
    background: url(https://www.apple.com/v/ipad/home/ai/images/home/ar_large_2x.jpg);
    width: 100%;
-   height: 700px;
+   height: 500px;
    background-repeat: no-repeat;
    background-size: contain;
    background-position: center;
@@ -111,6 +135,22 @@ z-index: 3;*/
    z-index: 3;
  }
 
+ .planhead{
+   color: white;
+   font-size: 40px;
+   position: relative;
+   top: 50%;
+   left:50%;
+   transform:translate(-40%, 140%);
+   /*margin-bottom: 10%;*/
+ }
+ h4{
+   text-align: right;
+   top: 50%;
+   left:50%;
+   transform:translate(-30%, 240%);
+   color: white;
+ }
  .power {
    margin-top: 1%;
    background: url(https://www.apple.com/v/ipad/home/ai/images/home/devices_large_2x.jpg);
@@ -216,12 +256,7 @@ i{
   margin-left: 30px;
   font-weight: 600;
 }
-p{
-  color: #ba3f12;
-  font-weight: bold;
-  /* text-align: center; */
-  margin-left: 14%;
-}
+
 
 /*@media screen and (max-width: 768px) and (min-width: 600px) {
   body {
