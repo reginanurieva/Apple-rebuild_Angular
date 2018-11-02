@@ -14,6 +14,15 @@ Application that rebuilds apple.com using Angular. This project was generated wi
 
 2. Create basic structure of application.
 
+
+## Specs week II
+
+1. Add routing to the application.
+
+2. Create components for each new route (current version of the application contains two routes: TV and iPad).
+
+3. Deploy the app into Firebase(the current stage of an application doesn't contain a database, application is hosted under the link 'https://apple-rebuild.firebaseapp.com/')
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
