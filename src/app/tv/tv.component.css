@@ -80,7 +80,7 @@ z-index: 3;*/
    color: white;
    top: 50%;
    left:50%;
-   transform:translate(-60%, 40%);
+   transform:translate(-60%, 20%);
    font-size: 60px;
  }
 
@@ -89,3 +89,66 @@ i{
    font-size: 30px;
    padding-top: 20%;
  }
+
+ body{
+   background-color: blue;
+ }
+
+ .tvapp {
+   /*background: url('../../assets/component1.png') bottom center;*/
+   background: url(https://www.apple.com/v/tv/home/e/images/home/watchnow_large_2x.jpg);
+   width: 100%;
+   height: 700px;
+   margin-bottom: 30%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   text-align: center;
+   z-index: 3;
+   background-color: black;
+   top: 50%;
+   left:50%;
+   transform:translate(-0%, 100%);
+   font-size: 60px;
+
+ }
+
+ .headlineapp{
+   color: white;
+   font-weight: 600;
+   font-size: 60px;
+   top: 50%;
+   left:50%;
+   transform:translate(-5%, 300%);
+   /* text-align: center; */
+   margin-left: 14%;
+ }
+
+ .prghapp{
+   color: white;
+   font-weight: 300;
+   font-size: 30px;
+   top: 50%;
+   left:50%;
+   transform:translate(-5%, 160%);
+   /* text-align: center; */
+   margin-left: 14%;
+ }
+h5{
+  color: white;
+  font-weight: 500;
+  font-size: 30px;
+  top: 50%;
+  left:50%;
+  transform:translate(-5%, 1200%);
+  /* text-align: center; */
+  margin-left: 14%;
+}
+
+.applink{
+  font-size: 20px;
+  position: relative;
+  /*top: 50%;
+  left:50%;*/
+  transform:translate(-1%, 1600%);
+}
