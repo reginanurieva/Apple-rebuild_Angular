@@ -1,0 +1,237 @@
+.ipadwithpen {
+  /*background: url('../../assets/component1.png') bottom center;*/
+  background: url(https://www.apple.com/v/ipad/home/ai/images/home/hero_large_2x.jpg);
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 10%;
+  background-size: contain;
+  text-align: center;
+  z-index: 3;
+  background-color:white;
+
+}
+h2 {
+  /*padding: 5%;*/
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+.links{
+  font-size: 23px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 30px;;
+
+}
+ a{
+   color: #488cc4;
+ }
+
+
+
+
+
+ /*position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: 3;*/
+
+ /* iphone s styling */
+
+ .ipappro {
+   margin-top: 1%;
+   /*background: url('../../assets/component2.jpg') bottom center;*/
+   background: url(https://www.apple.com/v/ipad/home/ai/images/home/ipad_pro_large_2x.jpg);
+   width: 100%;
+   height: 500px;
+   background-repeat: no-repeat;
+   background-size: contain;
+   /* background-attachment: fixed; */
+   text-align: center;
+   background-color: white;
+   /* position: absolute; */
+   z-index: 3;
+   object-fit: cover;
+   background-position: center;
+
+
+ }
+
+/*body{
+  background-color: #fafa;
+}*/
+ .compare {
+   margin-top: 5%;
+   background: url(https://www.apple.com/v/ipad/home/ai/images/home/compare_ipad_large_2x.jpg);
+   width: 100%;
+   height: 500px;
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: left;
+   margin-left: 10%;
+   background-color: #fafafa;
+   z-index: 3;
+ }
+
+ .comp{
+   margin-right: 90px;
+ }
+
+ https://www.apple.com/v/ipad/home/ai/images/home/ar_large_2x.jpg
+
+ .trade {
+   margin-top: 1%;
+   background: url(https://www.apple.com/v/ipad/home/ai/images/home/trade_in_large_2x.jpg);
+   width: 100%;
+   height: 700px;
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: right;
+   background-color: white;
+   z-index: 3;
+
+
+ }
+
+
+ .planets {
+   margin-top: 1%;
+   background: url(https://www.apple.com/v/ipad/home/ai/images/home/ar_large_2x.jpg);
+   width: 100%;
+   height: 700px;
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center;
+   background-color: white;
+   z-index: 3;
+ }
+
+ .power {
+   margin-top: 1%;
+   background: url(https://www.apple.com/v/ipad/home/ai/images/home/devices_large_2x.jpg);
+   width: 100%;
+   height: 700px;
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: right;
+   background-color: white;
+   z-index: 3;
+ }
+
+ .accsrs {
+   margin-top: 1%;
+   background: url(https://www.apple.com/v/ipad/home/ai/images/home/accessories_large_2x.jpg);
+   width: 100%;
+   height: 700px;
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center;
+   background-color: white;
+   z-index: 3;
+ }
+
+
+ .play {
+   margin-top: 1%;
+   background: url(https://www.apple.com/v/ipad/home/ai/images/home/ipad_playgrounds_large_2x.jpg);
+   width: 100%;
+   height: 500px;
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: left;
+   background-color: white;
+   z-index: 3;
+ }
+
+ .kid {
+   margin-top: 1%;
+   background: url(https://www.apple.com/v/ipad/home/ai/images/home/families_large_2x.jpg);
+   width: 100%;
+   height: 500px;
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center;
+   background-color: white;
+   z-index: 3;
+ }
+
+
+ .edu {
+   margin-top: 1%;
+   background: url(https://www.apple.com/v/ipad/home/ai/images/home/education_large_2x.jpg);
+   width: 100%;
+   height: 500px;
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center;
+   background-color: white;
+   z-index: 3;
+ }
+
+ .business {
+   margin-top: 1%;
+   background: url(https://www.apple.com/v/ipad/home/ai/images/home/business_large_2x.jpg);
+   width: 100%;
+   height: 500px;
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center;
+   background-color: white;
+   z-index: 3;
+ }
+
+ h3{
+  margin-left: 9%;
+  text-align: left;
+
+
+ }
+ .watch-links{
+   text-align: left;
+   margin-left: 9%;
+ }
+
+i{
+   margin-left: 9%;
+   font-size: 30px;
+   padding-top: 20%;
+ }
+
+.headline{
+  font-size: 59px;
+  font-weight: bold;
+  margin-top: 10%;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.ipad1{
+  font-size: 40px;
+  text-align: center;
+  margin-left: 30px;
+  font-weight: 600;
+}
+p{
+  color: #ba3f12;
+  font-weight: bold;
+  /* text-align: center; */
+  margin-left: 14%;
+}
+
+/*@media screen and (max-width: 768px) and (min-width: 600px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: teal;
+  }
+}*/
