@@ -11,6 +11,7 @@ import { CardsComponent } from './cards/cards.component';
 import { OptionsComponent } from './options/options.component';
 import { IpadComponent } from './ipad/ipad.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { TvComponent } from './tv/tv.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { HomepageComponent } from './homepage/homepage.component';
     CardsComponent,
     OptionsComponent,
     IpadComponent,
-    HomepageComponent
+    HomepageComponent,
+    TvComponent
   ],
   imports: [
     BrowserModule,

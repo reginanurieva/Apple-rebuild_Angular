@@ -1,0 +1,91 @@
+/*https://www.apple.com/v/tv/home/e/images/home/hero_large_2x.jpg*/
+.tv {
+  /*background: url('../../assets/component1.png') bottom center;*/
+  background: url(https://www.apple.com/v/tv/home/e/images/home/hero_large_2x.jpg);
+  width: 100%;
+  height: 3000px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  z-index: 3;
+  background-color: black;
+
+}
+h2 {
+  padding: 5%;
+  text-align: center;
+  color: white;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.tvlink{
+  font-size: 20px;
+  font-weight: 500;
+  color: #488cc4;
+
+}
+.tvlinkN{
+  font-size: 17px;
+  font-weight: 150;
+  color: white;
+}
+
+.links{
+  top: 50%;
+  left:50%;
+  transform:translate(-1%, 330%);
+}
+ /*a{
+   color: #488cc4;
+ }*/
+
+ /*position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: 3;*/
+
+ /* iphone s styling */
+
+
+
+
+ p{
+   color: white;
+   font-weight: 300;
+   font-size: 30px;
+   top: 50%;
+   left:50%;
+   transform:translate(-5%, 100%);
+   /* text-align: center; */
+   margin-left: 14%;
+ }
+
+
+
+ h1{
+   color: white;
+   /*font-weight: 600;*/
+   font-size: 70px;
+   top: 50%;
+   left:50%;
+   transform:translate(-0%, 200%);
+   /* text-align: center; */
+   /*margin-left: 14%;*/
+ }
+
+ .fa-apple{
+   color: white;
+   top: 50%;
+   left:50%;
+   transform:translate(-60%, 40%);
+   font-size: 60px;
+ }
+
+i{
+   margin-left: 9%;
+   font-size: 30px;
+   padding-top: 20%;
+ }

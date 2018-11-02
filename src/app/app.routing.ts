@@ -4,6 +4,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 // import { routing } from './app.routing';
 import { IpadComponent }   from './ipad/ipad.component';
 import { HomepageComponent }   from './homepage/homepage.component';
+import { TvComponent }   from './tv/tv.component';
 // import { IphoneComponent }   from './iphone/iphone.component';
 
 const appRoutes: Routes = [
@@ -15,7 +16,12 @@ const appRoutes: Routes = [
     {
         path: 'ipad',
         component: IpadComponent
-      }
+      },
+
+      {
+          path: 'tv',
+          component: TvComponent
+        }
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
